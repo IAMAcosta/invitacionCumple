@@ -393,7 +393,7 @@ function FloatingFace({ step, answer, submitted }) {
     window.setTimeout(() => {
       setMood("poker");
       setMessage("");
-    }, 1800);
+    }, 1000);
   };
 
   const handleClick = () => {
