@@ -625,7 +625,7 @@ function Styles() {
         flex-direction: column;
       }
       .pokerSmall {
-      transform: scale(0.8);
+      transform: scale(0.7);
       }
       .topHeader { display: flex; justify-content: space-between; align-items: flex-start; gap: 18px; }
       .brand { color: var(--red-500); font-size: 20px; line-height: .88; font-weight: 1000; letter-spacing: -.03em; text-shadow: 0 0 24px rgba(239,68,68,.4); }
