@@ -422,7 +422,7 @@ function FloatingFace({ step, answer, submitted }) {
     if (!submitted) return;
 
     if (answer === "si") {
-      showTemporaryFace("happy", "traee para tomarr");
+      showTemporaryFace("happy", "tariamo entonce");
     }
 
     if (answer === "no") {
