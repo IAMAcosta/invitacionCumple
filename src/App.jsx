@@ -445,7 +445,7 @@ function FloatingFace({ step, answer, submitted }) {
     <motion.div
       className="faceActor"
       animate={{ x: position.x, y: position.y, rotate: mood === "poker" ? 0 : [0, -7, 7, 0] }}
-      transition={{ duration: 1.45, ease: "easeInOut" }}
+      transition={{ duration: 0.75, ease: "easeOut" }}
     >
       <button
         type="button"
