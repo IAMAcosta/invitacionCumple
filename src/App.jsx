@@ -353,7 +353,7 @@ function FloatingFace({ step, answer, submitted }) {
   const [mood, setMood] = useState("poker");
   const [message, setMessage] = useState("");
 
-  const showByStep = step >= 3;
+  const showByStep = step >= 2;
 
   const getSafeRandomPosition = () => {
     const viewportWidth = window.innerWidth;
@@ -402,7 +402,7 @@ function FloatingFace({ step, answer, submitted }) {
       return;
     }
 
-    if (step === 4) {
+    if (step === 2 || step === 4) {
       showTemporaryFace("angry", "mas vale que vayas hdp");
       return;
     }
